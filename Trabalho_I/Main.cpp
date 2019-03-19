@@ -15,7 +15,7 @@ using namespace std;
 
 static void print_hello (GtkWidget *widget, gpointer   data)
 {
-  g_print ("Hello World\n");
+  g_print ("Hello World\n");//teste Smart Git
 }
 
 int main(int argc, char *argv[])

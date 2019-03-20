@@ -1,3 +1,2 @@
-https://bitismyth.wordpress.com/2017/04/22/exemplo-simples-do-uso-de-gtkbuilder/
-
-https://bitismyth.wordpress.com/2017/04/22/programacao-grafica-em-c-gnome-tool-kit-gtk/
+g++ -O3 -s -o Main  Main.cpp `pkg-config --cflags --libs gtk+-3.0` //compilar no linux
+./Main // executar no linux

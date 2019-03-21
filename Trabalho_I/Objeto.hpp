@@ -4,18 +4,26 @@
 #include <string>
 #include <iostream>
 #include "ListaEnc.hpp"
-#include "Ponto.hpp"
+#include "Coordenada.hpp"
 
 using namespace std;
 
-// Classe que representa um objeto: um conjunto de pontos interligados no espaço vetorial
 
-class Objeto
+class Objeto // UM OBjeto pussui um nome e um lista encadeada de coordenadas
 {
     public:
-        string nome;
-        string tipo;
-        ListaEnc<Ponto> coordenadas;
+        QString nome;
+        ListaEnc<Coordenada> pontos;
+
+        QString toString();
+
+        QString ObjetoGrafico::toString(){
+        QString txt = "";
+        for(int i=0;i<pontos.size();i++){
+            txt += "( " + QString::number(pontos[i].getX()) + " , " + QString::number(pontos[i].getY()) + " )";
+        }
+        return txt;
+    }
 };
 
 #endif

@@ -14,7 +14,10 @@ using namespace std;
 
 int main (int argc, char *argv[])
 {
-  Testes testes;
-  testes.executar();
+  //Testes testes;
+  //testes.executar();
+
+  
+
   return 0;
 }

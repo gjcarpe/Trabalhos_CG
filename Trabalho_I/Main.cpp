@@ -17,7 +17,7 @@ int main (int argc, char *argv[])
   //Testes testes;
   //testes.executar();
 
-  // Teste 2
+  // Teste 
 
   return 0;
 }

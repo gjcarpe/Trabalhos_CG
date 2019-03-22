@@ -16,7 +16,18 @@ static void print_hello (GtkWidget *widget, gpointer data)
 {
   g_print ("Hello World\n");//teste atom git2.1
 }
-
+static void print_hello2 (GtkWidget *widget, gpointer data)
+{
+  g_print ("Hello World2\n");//teste atom git2.1
+}
+static void print_hello3 (GtkWidget *widget, gpointer data)
+{
+  g_print ("Hello World3\n");//teste atom git2.1
+}
+static void print_hello4 (GtkWidget *widget, gpointer data)
+{
+  g_print ("Hello World4\n");//teste atom git2.1
+}
 int main(int argc, char *argv[])
 {
   GtkBuilder *builder;
@@ -37,7 +48,13 @@ int main(int argc, char *argv[])
   g_signal_connect (button, "clicked", G_CALLBACK (print_hello), NULL);
 
   button = gtk_builder_get_object (builder, "button2");
-  g_signal_connect (button, "clicked", G_CALLBACK (print_hello), NULL);
+  g_signal_connect (button, "clicked", G_CALLBACK (print_hello2), NULL);
+  
+  button = gtk_builder_get_object (builder, "button3");
+  g_signal_connect (button, "clicked", G_CALLBACK (print_hello3), NULL);
+
+  button = gtk_builder_get_object (builder, "button4");
+  g_signal_connect (button, "clicked", G_CALLBACK (print_hello4), NULL);
 
   button = gtk_builder_get_object (builder, "quit");
   g_signal_connect (button, "clicked", G_CALLBACK (gtk_main_quit), NULL);

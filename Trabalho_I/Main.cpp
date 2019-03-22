@@ -14,7 +14,7 @@ using namespace std;
 
 static void print_hello (GtkWidget *widget, gpointer data)
 {
-  g_print ("Hello World\n");//teste smartgit
+  g_print ("Hello World\n");//teste atom git2.1
 }
 
 int main(int argc, char *argv[])

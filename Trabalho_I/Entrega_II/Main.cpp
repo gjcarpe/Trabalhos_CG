@@ -1,6 +1,8 @@
+
 #include <string>
 #include <iostream>
 #include <gtk/gtk.h>
+
 #include "ListaEnc.hpp"
 #include "Testes.hpp"
 

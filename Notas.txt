@@ -1,2 +1,5 @@
-g++ -O3 -s -o Main  Main.cpp `pkg-config --cflags --libs gtk+-3.0` //compilar no linux
-./Main // executar no linux
+//compilar no linux
+g++ -O3 -s -o Main  Main.cpp `pkg-config --cflags --libs gtk+-3.0`
+
+// executar no linux
+./Main 

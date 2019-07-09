@@ -2,7 +2,6 @@
 #include <string>
 #include <iostream>
 #include <gtk/gtk.h>
-
 #include "ListaEnc.hpp"
 #include "Testes.hpp"
 
@@ -16,20 +15,21 @@ using namespace std;
 
 static void print_hello (GtkWidget *widget, gpointer data)
 {
-  g_print ("Hello World\n");//teste atom git2.1
+  g_print ("Hello World\n");
 }
 static void print_hello2 (GtkWidget *widget, gpointer data)
 {
-  g_print ("Hello World2\n");//teste atom git2.1
+  g_print ("Hello World2\n");
 }
 static void print_hello3 (GtkWidget *widget, gpointer data)
 {
-  g_print ("Hello World3\n");//teste atom git2.1
+  g_print ("Hello World3\n");
 }
 static void print_hello4 (GtkWidget *widget, gpointer data)
 {
-  g_print ("Hello World4\n");//teste atom git2.1
+  g_print ("Hello World4\n");
 }
+
 int main(int argc, char *argv[])
 {
   GtkBuilder *builder;
@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 
   /* Construct a GtkBuilder instance and load our UI description */
   builder = gtk_builder_new ();
-  gtk_builder_add_from_file (builder, "JanelaGlade.glade", NULL);
+  gtk_builder_add_from_file (builder, "ui.glade", NULL);
 
   /* Connect signal handlers to the constructed widgets. */
   window = gtk_builder_get_object (builder, "window");

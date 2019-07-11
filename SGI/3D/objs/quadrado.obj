@@ -1,0 +1,10 @@
+mtllib quadrado.mtl
+
+v 0 0 0
+v 0 10 0
+v 10 10 0
+v 10 0 0
+
+o quadrado
+l 1 2 3 4
+

@@ -1,0 +1,8 @@
+mtllib reta.mtl
+
+v 0 0 0
+v 10 10 0
+
+o reta
+l 1 2
+

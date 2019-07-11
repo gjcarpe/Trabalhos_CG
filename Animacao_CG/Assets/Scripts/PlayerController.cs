@@ -7,12 +7,14 @@ public class PlayerController : MonoBehaviour
     private int count;
     public Text countText;
     public Text winText;
+    public AudioSource som;
 
     public Rigidbody rb;
     public float speed;
    
     void Start()
     {
+        som = GetComponent<AudioSource>();
         this.count = 0;
         rb = GetComponent<Rigidbody>();
         this.setCountText();
@@ -32,6 +34,7 @@ public class PlayerController : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Pick Up"))
         {
+            som.Play();
             other.gameObject.SetActive(false);
             count++;
             this.setCountText();

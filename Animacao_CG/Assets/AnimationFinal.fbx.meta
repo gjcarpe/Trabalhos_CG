@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 4400a6980712d154e9c3bd68229457d2
+ModelImporter:
+  serializedVersion: 28
+  internalIDToNameTable:
+  - first:
+      74: -1055766231766805323
+    second: Andar
+  - first:
+      74: -7809416946527185901
+    second: Salto
+  - first:
+      74: 1532575548956146336
+    second: Miau|Andar
+  - first:
+      74: -5387094374008434739
+    second: Miau|Armature|Ana_Caminhada_x2d|Ana_Caminhada_x2d:BaseAnimation
+  - first:
+      74: 8997289909265994341
+    second: Miau|Armature|Ana_Caminhada_x2d|Ana_Caminhada_x2d:BaseAnimation.001
+  - first:
+      74: -5045115814898349986
+    second: Parado
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat1
+    second: {fileID: 5865586234719623449, guid: 5a7467fb5a64e0b49a984583d8b5afa2,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat2
+    second: {fileID: 3473123015285894068, guid: 5a7467fb5a64e0b49a984583d8b5afa2,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat3
+    second: {fileID: 8801679490653950251, guid: 5a7467fb5a64e0b49a984583d8b5afa2,
+      type: 3}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Andar
+      takeName: Andar
+      internalID: -1055766231766805323
+      firstFrame: 186
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Salto
+      takeName: Salto
+      internalID: -7809416946527185901
+      firstFrame: 368
+      lastFrame: 401
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Parado
+      takeName: Miau|Salto
+      internalID: -5045115814898349986
+      firstFrame: 840
+      lastFrame: 933
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 1
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: AnimationFinal(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Miau
+      parentName: AnimationFinal(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000002185569, y: -0.00000004371139, z: -0.00000004371139,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:Hips
+      parentName: Miau
+      position: {x: -0.008586342, y: 0.84042317, z: -0.0002719981}
+      rotation: {x: 0.49593884, y: -0.49982905, z: 0.50432026, w: 0.49987677}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Ana:Solving:Spine
+      parentName: Ana:Solving:Hips
+      position: {x: -0.040953882, y: -1.11758706e-10, z: -0.0614306}
+      rotation: {x: -0.00042397378, y: 0.081704214, z: 0.00039219082, w: 0.9966565}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:Spine1
+      parentName: Ana:Solving:Spine
+      position: {x: 0.00000011222437, y: -6.519258e-10, z: -0.08190771}
+      rotation: {x: 0.000032971682, y: -0.045265157, z: 0.00033340274, w: 0.998975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:Spine2
+      parentName: Ana:Solving:Spine1
+      position: {x: 0.000000070761885, y: 0.0000000012596137, z: -0.081907645}
+      rotation: {x: 0.00061230175, y: -0.04234876, z: 0.0072825835, w: 0.9990762}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Ana:Solving:Spine3
+      parentName: Ana:Solving:Spine2
+      position: {x: 0.000000009797513, y: -0.0000000019371509, z: -0.081907615}
+      rotation: {x: -0.00093145063, y: -0.006355863, z: 0.001553892, w: 0.9999782}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: Ana:Solving:Neck
+      parentName: Ana:Solving:Spine3
+      position: {x: 0.030715358, y: 0.000000024531037, z: -0.21500736}
+      rotation: {x: 0.008714312, y: -0.108799405, z: 0.0021534117, w: 0.9940232}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Ana:Solving:Head
+      parentName: Ana:Solving:Neck
+      position: {x: 0.000000069141386, y: -0.000000019073486, z: -0.11262299}
+      rotation: {x: -0.00062009826, y: 0.11917932, z: 0.0029124648, w: 0.9928683}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: Ana:Solving:HeadEnd
+      parentName: Ana:Solving:Head
+      position: {x: -0.00000002399087, y: -0.000000014305114, z: -0.13258831}
+      rotation: {x: -1.4188116e-10, y: 0.000000008469215, z: 9.058567e-10, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Ana:Solving:HeadEnd_end
+      parentName: Ana:Solving:HeadEnd
+      position: {x: -0, y: 0.13258794, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:RightShoulder
+      parentName: Ana:Solving:Spine3
+      position: {x: 0.090341985, y: -0.027464785, z: -0.11831636}
+      rotation: {x: 0.98632854, y: -0.019853983, z: -0.022644632, w: -0.16201568}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Ana:Solving:RightArm
+      parentName: Ana:Solving:RightShoulder
+      position: {x: 0.000000017881392, y: 0.13640852, z: 0.000000014305114}
+      rotation: {x: -0.1768993, y: -0.21495041, z: 0.06371528, w: 0.9583545}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Ana:Solving:RightForeArm
+      parentName: Ana:Solving:RightArm
+      position: {x: -0.000000007152557, y: 0.3658454, z: 0.00000007510185}
+      rotation: {x: 0.0059916796, y: -0.0012368554, z: -0.076505885, w: 0.99705034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:RightHand
+      parentName: Ana:Solving:RightForeArm
+      position: {x: 0.000000076293944, y: 0.3379276, z: 0.00000023841858}
+      rotation: {x: -0.016125098, y: 0.008132983, z: 0.14649482, w: 0.9890466}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Ana:Solving:RightHandEnd
+      parentName: Ana:Solving:RightHand
+      position: {x: 0.000000023841856, y: 0.0632809, z: 0.000000104904174}
+      rotation: {x: -0.0000000047744493, y: 0.7071067, z: 0.0000000047744484, w: 0.7071068}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Ana:Solving:R_FingersEnd
+      parentName: Ana:Solving:RightHandEnd
+      position: {x: -0.00000008106232, y: 0.06328105, z: -0.000000057220458}
+      rotation: {x: -0.0000000721775, y: -0.00000003981404, z: 0.0000000018626449,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Ana:Solving:R_FingersEnd_end
+      parentName: Ana:Solving:R_FingersEnd
+      position: {x: -0, y: 0.06328079, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:RightHandThumb1
+      parentName: Ana:Solving:RightHand
+      position: {x: 0.04218729, y: 0.02531248, z: -0.016874757}
+      rotation: {x: 0.1300295, y: 0.9876721, z: 0.011376385, w: -0.08641021}
+      scale: {x: 1, y: 1, z: 0.9999999}
+    - name: Ana:Solving:RightHandThumb2
+      parentName: Ana:Solving:RightHandThumb1
+      position: {x: -0.000000076293944, y: 0.06328093, z: -0.00000013381242}
+      rotation: {x: 0.000000045576595, y: -0.000000012703822, z: -0.0000002826564,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Ana:Solving:RightHandThumb2_end
+      parentName: Ana:Solving:RightHandThumb2
+      position: {x: -0, y: 0.06328096, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:LeftShoulder
+      parentName: Ana:Solving:Spine3
+      position: {x: 0.090341926, y: 0.027464803, z: -0.11831632}
+      rotation: {x: -0.12156696, y: -0.00803714, z: 0.021661183, w: 0.99231434}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:LeftArm
+      parentName: Ana:Solving:LeftShoulder
+      position: {x: 0.00000005483627, y: 0.13640851, z: 0.0000001168251}
+      rotation: {x: 0.16256863, y: 0.15065165, z: 0.00025044373, w: 0.9751285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:LeftForeArm
+      parentName: Ana:Solving:LeftArm
+      position: {x: 0.00000004529953, y: 0.365845, z: 0.000000028610229}
+      rotation: {x: -0.029538438, y: 0.0055413516, z: -0.049359553, w: 0.9983288}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+    - name: Ana:Solving:LeftHand
+      parentName: Ana:Solving:LeftForeArm
+      position: {x: -0.000000057220458, y: 0.32176548, z: 0}
+      rotation: {x: 0.08303624, y: 0.10473109, z: 0.114561275, w: 0.9843841}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Ana:Solving:LeftHandEnd
+      parentName: Ana:Solving:LeftHand
+      position: {x: 0.000000023841856, y: 0.063280985, z: -0.000000019073486}
+      rotation: {x: 0.000000002634177, y: -0.7071066, z: 0.0000000026341755, w: 0.70710695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:L_FingersEnd
+      parentName: Ana:Solving:LeftHandEnd
+      position: {x: 0.000000076293944, y: 0.06328085, z: 0.0000000500679}
+      rotation: {x: -0.0000000037252903, y: 0.000000025378538, z: -0.000000001862645,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:L_FingersEnd_end
+      parentName: Ana:Solving:L_FingersEnd
+      position: {x: -0, y: 0.06328094, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:LeftHandThumb1
+      parentName: Ana:Solving:LeftHand
+      position: {x: 0.04218724, y: 0.025312385, z: 0.016874962}
+      rotation: {x: 0.13002941, y: 0.98767215, z: 0.011376318, w: -0.08641036}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Ana:Solving:LeftHandThumb2
+      parentName: Ana:Solving:LeftHandThumb1
+      position: {x: 0.000000019073486, y: 0.063281, z: -0.000000095367426}
+      rotation: {x: -0.000000050291426, y: 0.000000026077036, z: 0.00000028125947,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: Ana:Solving:LeftHandThumb2_end
+      parentName: Ana:Solving:LeftHandThumb2
+      position: {x: -0, y: 0.06328081, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:RightUpLeg
+      parentName: Ana:Solving:Hips
+      position: {x: -0.00000013105571, y: -0.16316073, z: 0.023802888}
+      rotation: {x: 0.7205101, y: -0.070312925, z: -0.0010016726, w: 0.68986976}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1}
+    - name: Ana:Solving:RightLeg
+      parentName: Ana:Solving:RightUpLeg
+      position: {x: -0.00000007152557, y: 0.37491134, z: 0.0000000047683715}
+      rotation: {x: -0.000000003259781, y: -0.00000010256669, z: 0.009666067, w: 0.99995327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:RightFoot
+      parentName: Ana:Solving:RightLeg
+      position: {x: -0.0000000667572, y: 0.31982747, z: 0.00000000834465}
+      rotation: {x: -0.016439522, y: -0.030855093, z: -0.6306623, w: 0.77526945}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Ana:Solving:RightToeBase
+      parentName: Ana:Solving:RightFoot
+      position: {x: -0.0000000017881393, y: 0.1626687, z: -0.0000000020861626}
+      rotation: {x: 0.0027937836, y: -0.00035613385, z: -0.2188903, w: 0.97574544}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: Ana:Solving:RightToeBaseEnd
+      parentName: Ana:Solving:RightToeBase
+      position: {x: -0.0000000029057263, y: 0.14681254, z: 0.00000003993511}
+      rotation: {x: -0.0028164128, y: -0.000004313263, z: 0.0000000063010046, w: 0.99999607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:RightToeBaseEnd_end
+      parentName: Ana:Solving:RightToeBaseEnd
+      position: {x: -0, y: 0.14391555, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ana:Solving:LeftUpLeg
+      parentName: Ana:Solving:Hips
+      position: {x: -0.000000041872262, y: 0.14601226, z: 0.023802906}
+      rotation: {x: 0.69132507, y: 0.027839085, z: 0.11188467, w: 0.71328574}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Ana:Solving:LeftLeg
+      parentName: Ana:Solving:LeftUpLeg
+      position: {x: -0.000000014305114, y: 0.37491122, z: 0.000000014305114}
+      rotation: {x: 0.0018621393, y: 0.001976626, z: -0.029805034, w: 0.9995521}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999999}
+    - name: Ana:Solving:LeftFoot
+      parentName: Ana:Solving:LeftLeg
+      position: {x: 0.000000026226044, y: 0.31982982, z: -0.000000030100345}
+      rotation: {x: -0.00002238314, y: 0.018007439, z: -0.5922566, w: 0.8055482}
+      scale: {x: 0.99999964, y: 0.9999998, z: 0.99999994}
+    - name: Ana:Solving:LeftToeBase
+      parentName: Ana:Solving:LeftFoot
+      position: {x: 0.0000000023841857, y: 0.16266859, z: 0.00000006854534}
+      rotation: {x: -0.000000003745636, y: 0.00000019120588, z: -0.2037272, w: 0.97902775}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Ana:Solving:LeftToeBaseEnd
+      parentName: Ana:Solving:LeftToeBase
+      position: {x: -0.0000000011920929, y: 0.14681022, z: -0.000000026971101}
+      rotation: {x: -0.0000000049185473, y: -2.3283064e-10, z: 0.000000029685909,
+        w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Ana:Solving:LeftToeBaseEnd_end
+      parentName: Ana:Solving:LeftToeBaseEnd
+      position: {x: -0, y: 0.14391555, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Modelo_Miau
+      parentName: AnimationFinal(Clone)
+      position: {x: -0.018541075, y: -2.6645353e-15, z: -0.7122052}
+      rotation: {x: 0.000000021855698, y: 9.780706e-16, z: -2.9114854e-15, w: 1}
+      scale: {x: 45.938347, y: 45.938347, z: 45.938347}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
